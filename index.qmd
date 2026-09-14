@@ -2,6 +2,6 @@
 title: "Baseball"
 ---
 
-Welcome to Baseball, a site exploring the history of Major League Baseball through its data.
+Welcome to Baseball, a project that uses the Lahman database to explore the history of Major League Baseball through its data. The home-runs page shows that the big swings in raw home run totals are partly explained by shortened seasons, and that a per-game view gives a clearer picture of how the game changed over time.
 
-Here we use the Lahman database to look at the people, teams, and seasons that shaped the game over time.
+The Sluggers page then turns to the career leaders, highlighting the players with the most home runs across their careers and showing how their seasons compare. The analysis pages for these stories are available in the navigation bar above.
