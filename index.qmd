@@ -1,0 +1,7 @@
+---
+title: "Baseball"
+---
+
+Welcome to Baseball, a site exploring the history of Major League Baseball through its data.
+
+Here we use the Lahman database to look at the people, teams, and seasons that shaped the game over time.
