@@ -27,6 +27,9 @@ hr_by_season <- Teams |>
 ```
 
 ```{r}
+#| message: false
+library(tidyverse)
+
 ggplot(hr_by_season, aes(x = yearID, y = home_runs_per_game)) +
   geom_line(color = "grey70", linewidth = 0.8) +
   geom_point(aes(color = shortened_season), size = 2.5) +
@@ -47,6 +50,8 @@ ggplot(hr_by_season, aes(x = yearID, y = home_runs_per_game)) +
 
 ```{r}
 #| message: false
+library(Lahman)
+
 comparison <- Teams |>
   filter(yearID %in% c(2019, 1981, 1994, 2020)) |>
   group_by(yearID) |>
